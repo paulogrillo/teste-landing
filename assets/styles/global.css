@@ -2,13 +2,11 @@ body {
     background-color: #E3E3E3;
 }
 
+
 nav div a img {
     margin-left: 42pt;
 }
 
-section img {
-
-}
 .item:hover{
     text-decoration: none;
     color: #931853d7;
@@ -25,6 +23,7 @@ section img {
 .menu-items {
     position: absolute;
     right: 100px;
+    z-index: 1;
 }
 @media (min-width: 900px) {
 nav div ul li {
@@ -34,7 +33,15 @@ nav div ul li {
     font-family: 'Lato', sans-serif;
     font-size: 110pt;
     color: #0B6699;
-
+}
+.paragrafo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15pt;
+    color: #0B6699;
+    width: 50%;
+    height: 20%;
+    flex-direction: column;
+    justify-content: center;
 }
 
 }
@@ -56,13 +63,29 @@ nav div ul li {
     .item-ul {
         margin-left: 2rem;
     }
-
     .titulo {
         font-family: 'Lato', sans-serif;
         font-size: 70pt;
         color: #0B6699;
-        z-index: -1;
     }
+    .paragrafo {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17pt;
+        color: #0B6699;
+    }
+    .moldura-persona {
+        position: absolute;
+        right: 1.5rem;
+        bottom: 0.5rem;
+        background-image: url(/assets/img/photo-of-lovely-young-dark-skinned-female-with-pleased-expression-indicates-with-thumb-aside-dressed-in-casual-clothes-isolated-over-white-wall-offers@2x.png);
+        background-size: 1200px;
+        width: 40%;
+        height: 90%;
+        background-repeat: no-repeat;
+        background-position: right;
+    
+    }
+    
 
 }
 
@@ -71,26 +94,25 @@ header p {
     font-family: 'Montserrat', sans-serif;
     font-size: 20pt;
     color: #0B6699;
-    z-index: 1;
 
 }
-.persona {
-    width: 100%;
-    z-index: -1;
+
+.moldura-persona {
     position: absolute;
-    right: 0;
+    right: 1.5rem;
+    bottom: 0.5rem;
+    background-image: url(/assets/img/photo-of-lovely-young-dark-skinned-female-with-pleased-expression-indicates-with-thumb-aside-dressed-in-casual-clothes-isolated-over-white-wall-offers@2x.png);
+    background-size:10%x 60%;
+    width: 90%;
+    height: 90%;
+    background-repeat: no-repeat;
+    background-position: right;
+
 }
 .moldura-div {
-    object-fit: cover;
-    background-size: cover;
-}
-.moldura {
-    position: absolute;
-    right: 1rem;
-    top: 32rem;
-
-}
-
-.content-img {
     width: 100%;
+    height: 100%;
+    background-image: url(/assets/vetores/Path\ 3.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
